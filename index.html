@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Daily Utlity Hub</title>
+</head>
+<body>
+   <div class="container">
+    <h1>Daily Utility Hub</h1>
+    <h4>Daily Utility Hub is a simple and user-friendly web application designed to provide essential daily utilities in one place. It includes a Live Clock to display the current time, Quick Notes for writing and saving important reminders, and Motivational Quotes to inspire users every day. The application features a clean, responsive interface that makes everyday tasks more organized and productive.</h4>
+    <ul class="list">
+<li> Real-Time Live Clock
+<li>Quick Notes for reminders</li>
+ <li>Daily Motivational Quotes</li>
+ <li>Responsive Design</li>
+ <li>Clean and User-Friendly Interface</li>
+<li> Fast and Lightweight Performance</li>
+<li>Works on All Modern Browsers</li>
+<li>Secure Local Data Storage (for notes)</li>
+ <li>Easy Navigation</li>
+<li>Helps Improve Daily Productivity</li>
+</ul>
+<h3>Why Choose Daily Utility Hub?</h3>
+<ol class="list">
+<li>All essential daily utilities in one place.</li>
+<li>Simple and easy-to-use interface.</li>
+<li>Saves time with quick access to useful tools.</li>
+<li>Helps users stay organized and motivated.</li>
+<li>Accessible from desktop, tablet, and mobile devices</li>
+</ol>
+<h4 class="list">Daily Utility Hub is a simple and user-friendly web application that brings together essential daily utilities in one place. It features a Live Clock that displays the current time in real time, Quick Notes that allow users to create and save important reminders, and Motivational Quotes that inspire users with positive messages every day. The application has a clean and responsive design, making it accessible on desktops, tablets, and mobile devices. Built using HTML, CSS, and JavaScript, it offers fast performance, easy navigation, and an intuitive interface. By combining these useful tools into a single platform, Daily Utility Hub helps users stay organized, manage their daily tasks efficiently, and maintain a positive and productive mindset.</h4>
+    <div class="image">
+     <img  class="clock" src="clock.jpg" alt="Image of clock">
+<img class="note" src="notepad.jpg" alt="Image of notepad">
+<img class="quote" src="quote.jpg" alt="Image of Quote">
+    </div>
+    
+   <div class="total">
+   <div class="box">
+    <h2> Live Clock</h2>
+    <p>The Live Clock is a real-time digital clock that displays the current date and time accurately. It updates automatically every second, allowing users to easily keep track of time without refreshing the page. Its clean and simple design makes it convenient for everyday use.</p>
+<p id="time">--:--:--</p></div>
+<hr>
+
+    <h2>Quick Notes</h2>
+    <p>The Quick Notes feature allows users to write, edit, and save important notes instantly. It helps users keep track of reminders, ideas, and daily tasks in a simple and organized way. The clean interface makes note-taking fast, convenient, and easy to access whenever needed.</p>
+    <input type="text" id="noteInput" placeholder="Enter task..">
+    <button onclick="addNote()">Add</button>
+    <ul id="noteList"></ul>
+
+<hr>
+
+    <h2>Motivational Quotes</h2>
+    <p>The Motivational Quotes feature displays inspiring and positive quotes to encourage users throughout the day. It provides a new quote with a simple click or page refresh, helping users stay motivated, focused, and maintain a positive mindset.</p>
+    <p id="quote">Stay consistent,success follows &#127942; </p>
+    <button onclick="newQuote()">New Quote</button>
+    
+
+   </div>
+</div>
+   <script src="script.js"></script>
+</body>
+</html>
